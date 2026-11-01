@@ -54,6 +54,15 @@ B (least p), continuing A195353 (n) and A195354 (p). The OEIS tables end at n = 
 
 So q(n) ≤ 13037 for all odd 5 < n < 2N, and p(n) ≤ 5881 for all odd 5 < n < N.
 
+## Continuation by others
+
+- [AIOvernight/lemoine-records-1e15 at commit `8dfb748c`](https://github.com/AIOvernight/lemoine-records-1e15/tree/8dfb748c892b5baf535f6ffa3c033eb3c9cf3922)
+  continues this run on a GPU to 3.6·10^15 (B) and 7.2·10^15 (A) and lists four candidate terms. Its own
+  `docs/GPU_PROVENANCE.md` says it was produced by an AI agent coordinated by the account AIOvernight. I checked
+  the four values and parts of the run, not the whole range; what was checked is in
+  [the comment on pull request 2](https://github.com/yygotm/lemoine-records-1e15/pull/2#issuecomment-6557817465).
+  It is not part of the result of this repository.
+
 ## Prior work
 
 - OEIS A194828 / A194829 and A195353 / A195354 (Hugo Pfoertner, 2011): b-files with 50 and 41 terms, checked up to
